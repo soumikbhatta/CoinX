@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
     return (
         <div>
-            <h1>CryptoStats</h1>
+            <h1>CoinX</h1>
         </div>
     )
 }
