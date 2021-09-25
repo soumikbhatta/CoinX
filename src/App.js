@@ -36,6 +36,9 @@ const App = () => {
 
             </div>
             <div className="footer">
+                <div className="footer">
+                    {/* <Typography */}
+                </div>
 
             </div>
 
