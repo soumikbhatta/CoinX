@@ -3,16 +3,19 @@ import { Button, Menu, Typography, Avatar } from 'antd';
 import { Link } from 'react-router-dom';
 import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons';
 
-import icon from '../images/coinx-small.png'
+import icon from '../images/coinx.png'
 
 const Navbar = () => {
     return (
         <div className="nav">
             <div className="logo-container">
-                <Avatar src={icon} size="20px" />
+            <Link to='/'>
+                <img src={icon} alt='icon' height='50' />
+            </Link>
+                {/* <Avatar src={icon} size="large" />
                 <Typography.Title level={2} className="logo">
                     <Link to="/">CoinX</Link>
-                </Typography.Title>
+                </Typography.Title> */}
                 {/* <Button className="menu-control"></Button> */}
             </div>
             <Menu theme="dark">
