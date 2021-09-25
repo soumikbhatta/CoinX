@@ -33,12 +33,18 @@ const App = () => {
                         </Switch>
                     </div>
                 </Layout>
-
-            </div>
-            <div className="footer">
                 <div className="footer">
-                    {/* <Typography */}
-                </div>
+               <Typography.Title  level={5} style={{color: 'white', textAlign: 'center'}}>
+                   © 2021 CoinX.
+               </Typography.Title>
+               <Space>
+                   <Link to="/">Home</Link>
+                   <Link to="/exchanges">Exchanges</Link>
+                   <Link to="/news">News</Link>
+
+               </Space>
+               
+            </div>
 
             </div>
 
