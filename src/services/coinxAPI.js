@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-import { Provider } from 'react-redux';
+
 
 // var options = {
 //     method: 'GET',
@@ -23,7 +23,7 @@ export const coinxApi = createApi({
     baseQuery: fetchBaseQuery({ baseUrl }),
     endpoints: (builder) => ({
         getCoins: builder.query({
-            query: (count) => createReq( `/coins?Limit=${count}`),
+            query: (count) => createReq( `/coins?limit=${count}`),
         })
     })
 })

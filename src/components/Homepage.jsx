@@ -3,16 +3,17 @@ import millify from 'millify';
 import { Typography,Row, Col, Statistic } from 'antd';
 import { Link } from 'react-router-dom';
 import { useGetCoinsQuery } from '../services/coinxAPI';
-import { Coins, News } from '../components';
+import Coins from './Coins';
+import News from './News';
+import Load from './Load';
 
 const { Title } = Typography;
 
 const Homepage = () => {
     const { data, isFetching } = useGetCoinsQuery(10);
-    const globalStats = data?.data?.stats;
+  const globalStats = data?.data?.stats;
 
-    if(isFetching) return 'Loading...';
-    console.log(data)
+  if (isFetching) return <Load />;
     return (
         <>
             <Title level={2} className="heading">Global Cryptocurrency Stats</Title>
