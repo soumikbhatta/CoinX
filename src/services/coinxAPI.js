@@ -23,7 +23,7 @@ export const coinxApi = createApi({
     baseQuery: fetchBaseQuery({ baseUrl }),
     endpoints: (builder) => ({
         getCoins: builder.query({
-            query: () => createReq( '/coins')
+            query: (count) => createReq( `/coins?Limit=${count}`),
         })
     })
 })
