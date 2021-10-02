@@ -24,7 +24,7 @@ const App = () => {
                             <Route exact path="/coins">
                                 <Coins />
                             </Route>
-                            <Route exact path="/coins/:coindId">
+                            <Route exact path="/coins/:coinId">
                                 <CoinDetails />
                             </Route>
                             <Route exact path="/news">

@@ -2,7 +2,7 @@
     --text-primary:rgb(0, 0, 0);
     --bgPrimary:#fff;
    --bgSecondary: #F9F9F9;
-   --pink: #ffffff;
+   --pink: #ff8400;
    --light-blue: #e6f7ff;
    --border: #d9d9d9;
 }
@@ -334,10 +334,10 @@ width: 70%;
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    color: #0071bd;
+    color: #ff8400;
 }
 .chart-title{
-    color: #0071bd !important;
+    color: #ff8400 !important;
 }
 .price-container{
     display: flex !important;
