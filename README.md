@@ -19,7 +19,6 @@ React Web app for gathering Global Cryptocurrency statistics.
 
 <br>
 ### Homepage🏠
-
 ![](image/README/1633458671357.png)
 
 <br>
@@ -28,9 +27,13 @@ React Web app for gathering Global Cryptocurrency statistics.
 ![](image/README/1633458700648.png)
 
 <br>
+
+
 ### Exchanges📈�
 ![](image/README/1633458731915.png)
 
 <br>
+
+
 ### News📰
 ![](image/README/1633458752651.png)
