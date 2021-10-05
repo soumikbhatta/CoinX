@@ -1,5 +1,10 @@
 # CoinX
 
+<p align="center">
+    <img src="https://i.ibb.co/pycYvpy/coinx.png" width="350" />
+    <br>
+ </p>
+ 
 React Web app for gathering Global Cryptocurrency statistics.
 
 ### Tech Stack 📚
