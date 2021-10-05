@@ -4,8 +4,9 @@
     <img src="https://i.ibb.co/pycYvpy/coinx.png" width="350" />
     <br>
  </p>
- 
-React Web app for gathering Global Cryptocurrency statistics.
+<p align="center"> 
+React Web app which displays cryptocurrency prices, charts and news!
+</p>
 
 ### Tech Stack 📚
 <p align="center">
@@ -18,22 +19,36 @@ React Web app for gathering Global Cryptocurrency statistics.
 </p>
 
 <br>
+
 ### Homepage🏠
+<br>
+
 ![](image/README/1633458671357.png)
 
 <br>
 
 ### Coins💰
+<br>
+
 ![](image/README/1633458700648.png)
 
 <br>
 
 
-### Exchanges📈�
+### Exchanges📈
+<br>
+
 ![](image/README/1633458731915.png)
 
 <br>
 
-
 ### News📰
+<br>
+
 ![](image/README/1633458752651.png)
+
+<br>
+
+## Setup
+
+- run ```npm i && npm start``` to start the app
