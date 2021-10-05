@@ -3,6 +3,7 @@
 React Web app for gathering Global cryptocurrency statistics.
 
 ### Tech Stack 📚
+
 <p align="center">
      <img alt="React" src="https://img.shields.io/badge/-react-black?logo=react&style=for-the-badge">
      <img alt="Redux" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white">
