@@ -19,6 +19,7 @@ React Web app for gathering Global Cryptocurrency statistics.
 
 <br>
 ### Homepage🏠
+
 ![](image/README/1633458671357.png)
 
 <br>
