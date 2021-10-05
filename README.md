@@ -17,16 +17,20 @@ React Web app for gathering Global Cryptocurrency statistics.
      <img alt="html" src="https://img.shields.io/badge/-html5-red?logo=html5&logoColor=white&style=for-the-badge">
 </p>
 
+<br>
+### Homepage🏠
+
 ![](image/README/1633458671357.png)
 
 <br>
 
+### Coins💰
 ![](image/README/1633458700648.png)
 
 <br>
-
+### Exchanges📈�
 ![](image/README/1633458731915.png)
 
 <br>
-
+### News📰
 ![](image/README/1633458752651.png)
