@@ -10,8 +10,8 @@ const App = () => {
     return (
         <div className="app">
             <Helmet>
-                <title>Bros.</title>
-                <meta name='description' content='Social Media App using React + Redux, Node, Express, MongoDB' />
+                <title>CoinX</title>
+                <meta name='description' content='React Web app for gathering Global cryptocurrency statistics.' />
             </Helmet>
 
             <div className="navbar">
