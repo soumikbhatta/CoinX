@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
+import { Helmet } from 'react-helmet';
 
 import { Navbar, Homepage, Exchanges, Coins, CoinDetails, News } from './components';
 import './App.css';
@@ -8,6 +9,11 @@ import './App.css';
 const App = () => {
     return (
         <div className="app">
+            <Helmet>
+                <title>Bros.</title>
+                <meta name='description' content='Social Media App using React + Redux, Node, Express, MongoDB' />
+            </Helmet>
+
             <div className="navbar">
                 <Navbar />
             </div>
